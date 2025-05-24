@@ -48,13 +48,13 @@ const About = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-2xl overflow-hidden border-4 border-blue-500/30 shadow-2xl">
                 <img 
-                  src="/lovable-uploads/6fc22107-b892-4316-a149-4dfc5b6243fe.png" 
+                  src="/lovable-uploads/26c2aff8-dfbc-4eb4-8c6f-e0bdaf2c79f2.png" 
                   alt="Ganapathyram Nandhagopal" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-blue-600 text-white p-4 rounded-xl shadow-lg">
-                <div className="text-2xl font-bold">5+</div>
+                <div className="text-2xl font-bold">2+</div>
                 <div className="text-sm">Years Experience</div>
               </div>
             </div>
