@@ -30,6 +30,15 @@ const Clients = () => {
     }
   ];
 
+  const featuredClients = [
+    {
+      name: "Drops Chemicals",
+      logo: "/lovable-uploads/3fdc73a5-e9cb-4cfa-a394-2c410d43400a.png",
+      sector: "Chemical Manufacturing",
+      description: "Complete ERP implementation for chemical manufacturing operations"
+    }
+  ];
+
   const testimonials = [
     {
       quote: "Ganapathyram's expertise in ERPNext implementation transformed our manufacturing processes. The efficiency gains have been remarkable.",
@@ -61,6 +70,29 @@ const Clients = () => {
           <p className="text-xl text-slate-400 max-w-3xl mx-auto">
             Trusted by organizations across Manufacturing, Service, and Healthcare sectors
           </p>
+        </div>
+
+        {/* Featured Clients */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold text-white text-center mb-8">Featured Clients</h3>
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            {featuredClients.map((client, index) => (
+              <div key={index} className="bg-slate-900/50 rounded-2xl border border-slate-700 p-6 card-hover text-center">
+                <div className="flex justify-center mb-4">
+                  <div className="p-4 bg-white rounded-xl">
+                    <img 
+                      src={client.logo} 
+                      alt={client.name} 
+                      className="h-16 w-auto object-contain"
+                    />
+                  </div>
+                </div>
+                <h4 className="text-lg font-bold text-white mb-2">{client.name}</h4>
+                <p className="text-blue-400 text-sm font-semibold mb-3">{client.sector}</p>
+                <p className="text-slate-400 text-sm">{client.description}</p>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Client Statistics */}

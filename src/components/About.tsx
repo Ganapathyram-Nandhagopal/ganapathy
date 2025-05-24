@@ -42,9 +42,26 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-3 gap-12 items-start">
+          {/* Profile Photo */}
+          <div className="lg:col-span-1 flex justify-center">
+            <div className="relative">
+              <div className="w-80 h-80 rounded-2xl overflow-hidden border-4 border-blue-500/30 shadow-2xl">
+                <img 
+                  src="/lovable-uploads/6fc22107-b892-4316-a149-4dfc5b6243fe.png" 
+                  alt="Ganapathyram Nandhagopal" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute -bottom-4 -right-4 bg-blue-600 text-white p-4 rounded-xl shadow-lg">
+                <div className="text-2xl font-bold">5+</div>
+                <div className="text-sm">Years Experience</div>
+              </div>
+            </div>
+          </div>
+
           {/* About Content */}
-          <div className="space-y-6">
+          <div className="lg:col-span-2 space-y-6">
             <div className="bg-slate-900/50 p-8 rounded-2xl border border-slate-700 card-hover">
               <h3 className="text-2xl font-bold text-white mb-4">My Journey</h3>
               <p className="text-slate-300 leading-relaxed mb-4">
@@ -74,10 +91,12 @@ const About = () => {
               </p>
             </div>
           </div>
+        </div>
 
-          {/* Skills */}
-          <div className="space-y-6">
-            <h3 className="text-2xl font-bold text-white mb-8">Core Expertise</h3>
+        {/* Skills Section */}
+        <div className="mt-16">
+          <h3 className="text-2xl font-bold text-white mb-8 text-center">Core Expertise</h3>
+          <div className="grid md:grid-cols-2 gap-6">
             {skills.map((skill, index) => {
               const IconComponent = skill.icon;
               return (

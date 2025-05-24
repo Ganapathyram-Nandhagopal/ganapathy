@@ -11,6 +11,12 @@ const Partners = () => {
       category: "Technology Partner"
     },
     {
+      name: "AD3 Infotech",
+      description: "Strategic technology partnership for innovative ERP solutions and digital transformation",
+      logo: "/lovable-uploads/82c693fe-cbd7-4b1a-8dd3-183a6945fcd4.png",
+      category: "Technology Partner"
+    },
+    {
       name: "Manufacturing Solutions Group",
       description: "Strategic alliance for manufacturing sector ERP implementations",
       icon: Target,
@@ -21,12 +27,6 @@ const Partners = () => {
       description: "Specialized partnership for healthcare industry ERP solutions",
       icon: Star,
       category: "Healthcare Partner"
-    },
-    {
-      name: "Service Excellence Network",
-      description: "Collaborative partner network for service industry implementations",
-      icon: Handshake,
-      category: "Service Partner"
     }
   ];
 
@@ -48,9 +48,19 @@ const Partners = () => {
             return (
               <div key={index} className="bg-slate-800/50 rounded-2xl border border-slate-700 p-6 card-hover text-center">
                 <div className="flex justify-center mb-4">
-                  <div className="p-4 bg-blue-600/20 rounded-xl">
-                    <IconComponent className="text-blue-400" size={32} />
-                  </div>
+                  {partner.logo ? (
+                    <div className="p-4 bg-white rounded-xl">
+                      <img 
+                        src={partner.logo} 
+                        alt={partner.name} 
+                        className="h-12 w-auto object-contain"
+                      />
+                    </div>
+                  ) : (
+                    <div className="p-4 bg-blue-600/20 rounded-xl">
+                      <IconComponent className="text-blue-400" size={32} />
+                    </div>
+                  )}
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">{partner.name}</h3>
                 <p className="text-blue-400 text-sm font-semibold mb-3">{partner.category}</p>
