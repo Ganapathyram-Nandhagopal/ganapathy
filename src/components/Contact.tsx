@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Mail, Github, Linkedin } from 'lucide-react';
+import { Mail, Phone, Linkedin } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const Contact = () => {
@@ -39,7 +39,7 @@ const Contact = () => {
             Let's <span className="text-gradient">Connect</span>
           </h2>
           <p className="text-xl text-slate-400 max-w-3xl mx-auto">
-            Ready to transform your business? Let's discuss how we can work together to achieve your goals.
+            Ready to transform your business with ERPNext? Let's discuss how we can work together to achieve your goals.
           </p>
         </div>
 
@@ -56,17 +56,17 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold">Email</h4>
-                    <p className="text-slate-400">ganapathi@budeglobal.com</p>
+                    <p className="text-slate-400">ganapathyram.n@gmail.com</p>
                   </div>
                 </div>
 
                 <div className="flex items-center space-x-4">
                   <div className="p-3 bg-blue-600/20 rounded-lg">
-                    <Github className="text-blue-400" size={24} />
+                    <Phone className="text-blue-400" size={24} />
                   </div>
                   <div>
-                    <h4 className="text-white font-semibold">GitHub</h4>
-                    <p className="text-slate-400">@ganapathiram</p>
+                    <h4 className="text-white font-semibold">Phone</h4>
+                    <p className="text-slate-400">+91 6383236424</p>
                   </div>
                 </div>
 
@@ -76,7 +76,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold">LinkedIn</h4>
-                    <p className="text-slate-400">ganapathi-ram-nandhagopal</p>
+                    <p className="text-slate-400">Ganapathyram Nandhagopal</p>
                   </div>
                 </div>
               </div>
@@ -85,8 +85,9 @@ const Contact = () => {
             <div className="bg-slate-800/50 rounded-2xl border border-slate-700 p-8">
               <h3 className="text-xl font-bold text-white mb-4">BUDE Global Enterprise</h3>
               <p className="text-slate-400 leading-relaxed">
-                Your trusted partner for innovative technology solutions. From ERP consulting to mobile app development, 
-                we're here to help your business thrive in the digital age.
+                Your trusted partner for ERPNext implementations and business development. 
+                Specializing in Manufacturing, Service, and Healthcare sectors with comprehensive 
+                end-to-end solutions from project inception to successful implementation.
               </p>
             </div>
           </div>
@@ -141,7 +142,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full bg-slate-700 border border-slate-600 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none transition-colors duration-300"
-                  placeholder="Project inquiry, consultation, etc."
+                  placeholder="ERPNext consultation, implementation, etc."
                 />
               </div>
 
@@ -174,12 +175,12 @@ const Contact = () => {
         {/* Call to Action */}
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-blue-600/20 to-cyan-600/20 rounded-2xl border border-blue-500/30 p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-white mb-4">Ready to Start Your Project?</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Ready to Start Your ERP Journey?</h3>
             <p className="text-slate-300 mb-6">
-              Let's turn your vision into reality. Schedule a free consultation to discuss your requirements.
+              Let's turn your vision into reality. Schedule a free consultation to discuss your ERPNext requirements.
             </p>
             <a
-              href="mailto:ganapathi@budeglobal.com"
+              href="mailto:ganapathyram.n@gmail.com"
               className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
             >
               <Mail className="mr-2" size={20} />

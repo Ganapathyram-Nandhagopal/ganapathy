@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef, useState } from 'react';
-import { Code, Settings, Star, User } from 'lucide-react';
+import { Settings, TrendingUp, Users, Briefcase } from 'lucide-react';
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -24,10 +24,10 @@ const About = () => {
   }, []);
 
   const skills = [
-    { name: 'ERPNext', level: 95, icon: Settings },
-    { name: 'Flutter Development', level: 90, icon: Code },
-    { name: 'RFID Integration', level: 85, icon: Star },
-    { name: 'UI/UX Design', level: 88, icon: User },
+    { name: 'ERPNext Implementation', level: 95, icon: Settings },
+    { name: 'Business Development', level: 90, icon: TrendingUp },
+    { name: 'Project Management', level: 88, icon: Briefcase },
+    { name: 'ERP Consulting', level: 92, icon: Users },
   ];
 
   return (
@@ -38,7 +38,7 @@ const About = () => {
             About <span className="text-gradient">Me</span>
           </h2>
           <p className="text-xl text-slate-400 max-w-3xl mx-auto">
-            Passionate about creating innovative solutions that drive business growth and efficiency
+            Passionate about delivering high-quality ERP solutions that drive business growth and efficiency
           </p>
         </div>
 
@@ -48,25 +48,29 @@ const About = () => {
             <div className="bg-slate-900/50 p-8 rounded-2xl border border-slate-700 card-hover">
               <h3 className="text-2xl font-bold text-white mb-4">My Journey</h3>
               <p className="text-slate-300 leading-relaxed mb-4">
-                As the founder of <span className="text-blue-400 font-semibold">BUDE Global Enterprise</span>, 
-                I specialize in transforming business operations through strategic ERP implementations 
-                and innovative technology solutions.
+                I graduated with a degree in Commerce, specializing in Computer Applications 🎓. 
+                This laid the foundation for my journey into the world of ERP solutions. I initially 
+                kick-started my career as an ERPNext Implementation Consultant 🛠️, where I gained 
+                invaluable experience and insight into the ERP landscape.
               </p>
               <p className="text-slate-300 leading-relaxed mb-4">
-                With years of experience in ERPNext consulting, Flutter app development, and RFID integration, 
-                I help businesses streamline their processes and achieve sustainable growth.
+                With comprehensive knowledge and hands-on experience in ERPNext Implementation, 
+                Business Development 📈, Project Management 📊, and Consulting 💡, I have the skill set 
+                to deliver high-quality ERP solutions tailored to meet the unique needs of each client.
               </p>
               <p className="text-slate-300 leading-relaxed">
-                My approach combines technical expertise with business acumen to deliver solutions 
-                that not only meet today's needs but also scale for tomorrow's challenges.
+                At present, my role is laser-focused on spearheading business development initiatives 🚀. 
+                I am keenly concentrated on the Manufacturing 🏭, Service 📞, and Healthcare 🏥 sectors, 
+                where I aim to implement ERP solutions that streamline operations, enhance productivity, and drive business growth.
               </p>
             </div>
 
             <div className="bg-slate-900/50 p-8 rounded-2xl border border-slate-700 card-hover">
               <h3 className="text-2xl font-bold text-white mb-4">What Drives Me</h3>
               <p className="text-slate-300 leading-relaxed">
-                I believe in the power of technology to transform businesses and improve lives. 
-                Every project is an opportunity to create something meaningful and impactful.
+                My multidisciplinary expertise ensures that I can offer end-to-end solutions, 
+                right from project inception to successful implementation 🌐. I believe in the power 
+                of technology to transform businesses and improve operational efficiency across industries.
               </p>
             </div>
           </div>

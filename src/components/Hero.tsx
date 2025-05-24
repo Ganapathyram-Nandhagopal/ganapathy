@@ -15,16 +15,16 @@ const Hero = () => {
         <div className="animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             <span className="text-white">Hi, I'm </span>
-            <span className="text-gradient">Ganapathi Ram</span>
+            <span className="text-gradient">Ganapathyram Nandhagopal</span>
           </h1>
           
           <h2 className="text-2xl md:text-3xl text-slate-300 mb-8 animate-fade-in-up-delay-1">
-            ERP Consultant & Tech Entrepreneur
+            ERPNext Implementation Consultant & Business Development Specialist
           </h2>
           
           <p className="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto mb-12 leading-relaxed animate-fade-in-up-delay-2">
-            Transforming businesses through innovative ERP solutions, cutting-edge app development, 
-            and strategic technology integration. Building the future with <span className="text-blue-400 font-semibold">BUDE Global Enterprise</span>.
+            Transforming businesses through strategic ERPNext implementations across Manufacturing, Service, and Healthcare sectors. 
+            Building sustainable growth with <span className="text-blue-400 font-semibold">BUDE Global Enterprise</span>.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up-delay-3">

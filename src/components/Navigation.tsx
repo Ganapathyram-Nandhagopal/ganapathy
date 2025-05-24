@@ -19,6 +19,8 @@ const Navigation = () => {
     { href: '#about', label: 'About' },
     { href: '#projects', label: 'Projects' },
     { href: '#services', label: 'Services' },
+    { href: '#partners', label: 'Partners' },
+    { href: '#clients', label: 'Clients' },
     { href: '#contact', label: 'Contact' },
   ];
 
@@ -29,7 +31,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <a href="#home" className="text-2xl font-bold text-gradient">
-            Ganapathi Ram
+            Ganapathyram Nandhagopal
           </a>
           
           {/* Desktop Navigation */}

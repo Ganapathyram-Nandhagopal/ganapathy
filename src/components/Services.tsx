@@ -1,35 +1,35 @@
 
 import React from 'react';
-import { Settings, Code, Star, Briefcase } from 'lucide-react';
+import { Settings, TrendingUp, Users, Briefcase } from 'lucide-react';
 
 const Services = () => {
   const services = [
     {
       icon: Settings,
-      title: "ERP Consulting & Implementation",
-      description: "Complete ERPNext solutions tailored to your business needs, from initial consultation to full deployment and training.",
+      title: "ERPNext Implementation & Consulting",
+      description: "Complete ERPNext solutions tailored to your business needs, from initial consultation to full deployment and training across Manufacturing, Service, and Healthcare sectors.",
       features: ["Custom ERPNext setup", "Business process optimization", "Data migration", "Staff training & support"],
       price: "Starting at $5,000"
     },
     {
-      icon: Code,
-      title: "Mobile App Development",
-      description: "Cross-platform Flutter applications that deliver exceptional user experiences across iOS and Android devices.",
-      features: ["Flutter development", "UI/UX design", "API integration", "App store deployment"],
-      price: "Starting at $8,000"
-    },
-    {
-      icon: Star,
-      title: "RFID Integration Solutions",
-      description: "Advanced RFID systems for inventory management, asset tracking, and automated data collection.",
-      features: ["RFID system design", "Hardware integration", "Custom software development", "Real-time tracking"],
+      icon: TrendingUp,
+      title: "Business Development Strategy",
+      description: "Strategic business development initiatives focused on growth acceleration and operational excellence in your target markets.",
+      features: ["Growth strategy planning", "Market analysis", "Process optimization", "Performance metrics"],
       price: "Starting at $3,000"
     },
     {
       icon: Briefcase,
-      title: "Digital Marketing Strategy",
-      description: "Comprehensive digital marketing solutions to boost your online presence and drive business growth.",
-      features: ["SEO optimization", "Social media strategy", "Content marketing", "Analytics & reporting"],
+      title: "Project Management & Consulting",
+      description: "End-to-end project management services ensuring successful ERP implementation from inception to completion.",
+      features: ["Project planning & execution", "Stakeholder management", "Risk assessment", "Quality assurance"],
+      price: "Starting at $4,000"
+    },
+    {
+      icon: Users,
+      title: "ERP Training & Support",
+      description: "Comprehensive training programs and ongoing support to maximize your ERPNext investment and user adoption.",
+      features: ["User training programs", "Documentation creation", "Ongoing support", "System optimization"],
       price: "Starting at $2,000"
     }
   ];
@@ -42,7 +42,7 @@ const Services = () => {
             My <span className="text-gradient">Services</span>
           </h2>
           <p className="text-xl text-slate-400 max-w-3xl mx-auto">
-            Comprehensive technology solutions designed to accelerate your business growth
+            Comprehensive ERP solutions designed to accelerate your business growth across Manufacturing, Service, and Healthcare sectors
           </p>
         </div>
 
@@ -94,7 +94,7 @@ const Services = () => {
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-3xl font-bold text-blue-400 mb-2">50+</div>
-                <p className="text-slate-400">Projects Completed</p>
+                <p className="text-slate-400">ERP Implementations</p>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-400 mb-2">98%</div>
