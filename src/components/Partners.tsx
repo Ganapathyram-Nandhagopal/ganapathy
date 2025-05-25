@@ -33,7 +33,7 @@ const Partners = () => {
   const featuredClients = [
     {
       name: "Drops Chemicals",
-      logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=200&h=100&fit=crop",
+      logo: "/lovable-uploads/32e7bb5d-ea1c-40eb-b08e-488c8a10b011.png",
       sector: "Chemical Manufacturing",
       description: "Complete ERP implementation for chemical manufacturing operations"
     }
