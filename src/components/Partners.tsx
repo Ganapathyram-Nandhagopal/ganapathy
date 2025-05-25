@@ -13,7 +13,7 @@ const Partners = () => {
     {
       name: "AD3 Infotech",
       description: "Strategic technology partnership for innovative ERP solutions and digital transformation",
-      logo: "https://images.unsplash.com/photo-1599305445819-5c5c7b3f6ff5?w=200&h=100&fit=crop",
+      logo: "/lovable-uploads/82c693fe-cbd7-4b1a-8dd3-183a6945fcd4.png",
       category: "Technology Partner"
     },
     {
@@ -33,7 +33,7 @@ const Partners = () => {
   const featuredClients = [
     {
       name: "Drops Chemicals",
-      logo: "/lovable-uploads/32e7bb5d-ea1c-40eb-b08e-488c8a10b011.png",
+      logo: "/lovable-uploads/3fdc73a5-e9cb-4cfa-a394-2c410d43400a.png",
       sector: "Chemical Manufacturing",
       description: "Complete ERP implementation for chemical manufacturing operations"
     }

@@ -33,7 +33,7 @@ const Clients = () => {
   const featuredClients = [
     {
       name: "Drops Chemicals",
-      logo: "/lovable-uploads/32e7bb5d-ea1c-40eb-b08e-488c8a10b011.png",
+      logo: "/lovable-uploads/3fdc73a5-e9cb-4cfa-a394-2c410d43400a.png",
       sector: "Chemical Manufacturing",
       description: "Complete ERP implementation for chemical manufacturing operations"
     }
