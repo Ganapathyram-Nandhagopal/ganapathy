@@ -48,7 +48,7 @@ const About = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-2xl overflow-hidden border-4 border-blue-500/30 shadow-2xl">
                 <img 
-                  src="/lovable-uploads/eb3e5e27-c9b8-4cf0-8afe-90162dbe280a.png" 
+                  src="/lovable-uploads/26c2aff8-dfbc-4eb4-8c6f-e0bdaf2c79f2.png" 
                   alt="Ganapathyram Nandhagopal" 
                   className="w-full h-full object-cover"
                 />
